@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falcon Validator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"></a>
+                <img src="image/email-part-2-svgrepo-com.svg" alt="logo">
+                <span>FalconValidator</span></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Enter Your Email To The Validator</h1>
+            <form action="/submit" method="post">
+                
+                <input placeholder="Enter your Email" type="text" id="username" name="username" required>
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+              </form>
+        </div>
+        <div class="container">
+            <h2>Your Result</h2>
+            <div id="resultCont">
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright | FalconValidator.com | All right reserved
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
